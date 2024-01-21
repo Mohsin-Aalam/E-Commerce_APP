@@ -44,7 +44,7 @@ class _SplashScreenState extends State<SplashScreen> {
       listener: (context, state) {
         goToNextScreen();
       },
-      child: Scaffold(
+      child: const Scaffold(
         body: Center(
           child: CircularProgressIndicator(),
         ),
